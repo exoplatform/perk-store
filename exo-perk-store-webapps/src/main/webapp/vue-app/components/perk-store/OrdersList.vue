@@ -47,7 +47,7 @@
             @init-wallet="$emit('init-wallet')"
             @display-product="$emit('display-product', $event)"
             @changed="updateOrder(props.item, $event)"
-            @loading="loading = true"
+            @loading="loading = $event"
             @error="$emit('error', $event)" />
         </v-flex>
         <v-flex
