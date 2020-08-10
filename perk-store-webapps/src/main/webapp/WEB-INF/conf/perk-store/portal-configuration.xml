@@ -20,10 +20,10 @@
               <string>portal</string>
             </field>
             <field name="override">
-              <boolean>true</boolean>
+              <boolean>${exo.perkstore.portalConfig.metadata.override:true}</boolean>
             </field>
             <field name="importMode">
-              <string>merge</string>
+              <string>${exo.perkstore.portalConfig.metadata.importmode:merge}</string>
             </field>
             <field name="predefinedOwner">
               <collection type="java.util.HashSet">
