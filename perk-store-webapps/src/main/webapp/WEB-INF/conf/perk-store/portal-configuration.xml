@@ -23,7 +23,7 @@
               <boolean>${exo.perkstore.portalConfig.metadata.override:true}</boolean>
             </field>
             <field name="importMode">
-              <string>${exo.perkstore.portalConfig.metadata.importmode:merge}</string>
+              <string>${exo.perkstore.portalConfig.metadata.importmode:insert}</string>
             </field>
             <field name="predefinedOwner">
               <collection type="java.util.HashSet">
